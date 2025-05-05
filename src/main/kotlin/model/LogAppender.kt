@@ -1,4 +1,7 @@
-package org.example.model
+package model
+
+import model.LogMessage
 
 interface LogAppender {
+    fun append(logMessage: LogMessage)
 }
